@@ -1,0 +1,57 @@
+.jumbotron.home{
+	margin-top:35px;
+}
+.navbar-brand{
+	font-family: 'Dancing Script', cursive;
+}
+.header{
+	background: rgba(0,0,0,0.9);
+}
+
+.header-image{
+	filter:blur(5px);
+	height:500px;
+	transition: all 1000ms;
+	width: 100%;
+	background-size: cover;
+	background-position: center absolute;
+	z-index: -1;
+}
+.header-image:hover{
+	filter:blur(2px);
+}
+.header-data{
+	position: absolute;
+	top: 35%;
+	right: 50%;
+	left: 10%;
+	bottom: 80%;
+	color: white;
+}
+
+#carouselExampleSlidesOnly{
+	height: 390px;
+}
+.d-block.w-100{
+	height: 400px;
+	
+}
+hr
+{
+	width: 50%;
+	height: 2px;
+}
+
+.navbar.navbar-expand-md.navbar-dark.bg-dark
+{
+	border-bottom: 5px solid b1e8ed;
+}
+.contact-us-hr{
+	margin-top: 5px;
+	width:40%;
+	height: 2px;
+	color: white;
+}
+.img-thumbnail{
+	height: 491px;
+}

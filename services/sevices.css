@@ -1,0 +1,292 @@
+
+
+#row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  }
+
+  .cols {
+  position: relative;
+  min-width: 100%;
+  }
+
+ .value{
+ 	position: absolute;
+ 	z-index: +1;
+ 	color: white;
+	font-family: 'Dancing Script', cursive;
+ 	}
+
+@media (min-width: 10px) {
+  #services,.frieght{
+  				font-size: 30px;
+  				text-align: center;
+ 				
+				font-family: 'Acme', sans-serif;
+			}
+	.parta{		font-weight: 50px; 	 	
+				font-size: 60px;
+ 				line-height: 50px;
+				 text-align: center;
+ 				margin-top: 70px;
+
+	}	
+	.partb{		font-weight: 50px;
+				font-size: 60px;
+ 				line-height: 50px;
+ 				margin-left:135px; 
+ 				margin-top: 4px;
+
+	}		
+	img{
+	
+	min-width: 98%;
+	padding: 10px;
+	margin: 10px;
+	max-height: 300px;
+
+	}
+	.buttonlog{	
+					margin-left: 25%;
+					font-size: 20px;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					padding-left: 50px;
+					padding-right: 50px;
+		
+	
+	}
+	.divcontainer{
+		height: 260px;
+	}
+	.custom{
+		font-size: 15px;
+	}
+	.ware{
+		height: 300px;
+	}
+
+}
+
+
+@media (min-width: 768px) {
+ #services,.frieght	{
+ 			    font-size: 40px;
+ 			    text-align: center;
+ 				font-family: 'Acme', sans-serif;
+			}
+	.parta{		font-weight: 70px;
+				font-size: 70px;
+ 				line-height: 50px;
+ 				text-align: center; 
+ 				margin-top: 90px;
+
+	}	
+	.partb{
+				font-weight: normal;
+				font-size: 70px;
+ 				line-height: 50px;
+ 				margin-left:180px; 
+ 				margin-top: 15px;
+
+	}
+	img{
+	
+	min-width: 98%;
+	padding: 10px;
+	margin: 10px;
+	max-height: 450px;
+
+		}
+
+	.buttonlog{	
+				margin-left: 36%;
+				font-size: 25px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				padding-left: 65px;
+				padding-right: 65px;
+		
+	
+	}	
+	.divcontainer{
+		height: 290px;
+	}	
+	.custom{
+		font-size: 20px;
+	}
+	.ware{
+		height: 350px;
+	}
+
+}
+
+@media (min-width: 992px) {
+  #services,.frieght{
+	  			font-size: 50px;
+				text-align: center;
+ 				font-family: 'Acme', sans-serif;	
+			}
+	.parta{		
+				font-size: 80px;
+ 				line-height: 60px;
+				 text-align: center;
+				margin-top: 90px;
+
+	}	
+	.partb{		font-weight: normal;
+				font-size: 80px;
+ 				line-height: 60px;
+ 				margin-left:150px; 
+ 				margin-top: 15px;
+
+	}
+	img{
+	
+	min-width: 98%;
+	padding: 10px;
+	margin: 10px;
+	max-height: 500px;
+
+		}
+
+	.buttonlog{	
+				margin-left: 50%;
+				font-size: 30px;
+				padding-top: 9px;
+				padding-bottom: 9px;
+				padding-left: 75px;
+				padding-right: 75px;
+		
+	
+	}
+	.divcontainer{
+		height: 330px;
+	}
+	.custom{
+		font-size: 27px;
+	}
+	.ware{
+		height: 400px;
+	}	
+}
+
+
+
+@media (min-width: 1200px) {
+  #services,.frieght{
+  				font-size: 60px;
+				text-align: center;
+ 				font-family: 'Acme', sans-serif;
+			}
+
+			.parta{	
+				font-weight: normal;	
+				font-size: 100px;
+ 				line-height: 77px;
+				text-align: center; 
+				 margin-top: 150px;
+
+	}	
+	.partb{	
+				font-size: 100px;
+ 				line-height: 77px;
+ 				margin-left:400px; 
+ 				margin-top: 20px;
+
+	}
+	img{
+	
+	min-width: 98%;
+	padding: 10px;
+	margin: 10px;
+	max-height: 600px;
+
+		}
+	.buttonlog{	
+				margin-left: 60%;
+				font-size: 35px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 100px;
+				padding-right: 100px;
+		
+	
+	}	
+	.divcontainer{
+		height: 400px;
+	}	
+	.custom{
+		font-size: 33px;
+	}
+	.ware{
+		height: 500px;
+	}
+
+}
+
+/* #buttonlogin{
+	font-family: 'Luckiest Guy', cursive;
+	color:black;
+	border: 1px solid black;
+	border-radius: 8px;
+	text-decoration: none;
+	box-shadow: 1px 1px 3px 3px;
+	background-color:#8EAFFF;
+	word-spacing: 2px;
+	} */
+.divcontainer{
+	
+	display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+	float: left;
+	width: 50%;
+  	padding-right: 15px;
+ 	padding-left: 15px;
+  	margin-right: auto;
+ 	margin-left: auto;
+
+}
+.custom{
+	
+	font-family: 'Dancing Script', cursive;
+
+}
+.warehouses{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+  	margin-left: auto;		
+	background-image: url(12.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	box-sizing: border-box;
+	
+
+}
+
+#customclear{
+	background-image: url(6.jpg);
+	box-sizing: border-box;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#mainarea{
+
+	background-image: url(11.jpeg);
+	box-sizing: border-box;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
